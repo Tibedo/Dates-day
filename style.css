@@ -1,0 +1,93 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 0, 41);
+    justify-content: space-around;
+    
+}
+
+
+
+#date {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dateNow {
+    box-sizing:content-box;;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 2px solid rgb(178, 178, 178);
+    border-right: 2px solid rgb(178, 178, 178);
+    justify-content: space-between;
+    border-radius: 50px;
+    box-shadow: 0 5px 50px rgb(255, 0, 0);
+}
+
+#dayname, #yeare {
+    text-align: center;
+    font-size: 40px;
+    width: 300px;
+    background-color: red;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#yeare {
+    border-radius: 0 0 50px 50px;
+    border-bottom: 3px solid rgb(149, 0, 0);
+    border-left: 3px solid rgb(149, 0, 0);
+    border-right: 3px solid rgb(149, 0, 0);
+
+}
+
+#dayname {
+    border-radius: 50px 50px 0 0;
+    border-top: 3px solid rgb(149, 0, 0);
+    border-left: 3px solid rgb(149, 0, 0);
+    border-right: 3px solid rgb(149, 0, 0);
+}
+
+#daynum, #monthe {
+    font-size: 50px;
+    color: rgb(119, 119, 119);
+    font-weight: bold;
+}
+
+#daynum {
+    font-size: 75px;
+}
+
+#hoursNow {
+    background-color: rgb(43, 0, 58);
+    color: white;
+    padding: 20px 40px;
+    border: 5px solid rgb(119, 0, 255);
+    border-radius: 100px;
+    box-shadow: 0 2px 50px rgb(123, 0, 255);
+    font-size: 100px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+}
+
+#todayDate {
+    font-size: xx-large;
+    color: red;
+}
